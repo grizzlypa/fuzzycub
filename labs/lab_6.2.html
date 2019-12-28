@@ -17,13 +17,82 @@
 Enter Your Name: <input type="text" name="Name" size="40"/>
 <br/>
 <br/>
-Enter Your Email: <input type="text" name="Email" size="40"/>
+Enter Your Email: <input type="email" name="Email" size="40" />
+<br/>
+<br/>
+<br/>Get an alert: 
+<input type="button" onclick="alert('Hello World!')" value="Click Me!" />
+<br/>Pick a date: 
+<input type="date" name="date" value="2020-01-01" />
+<br/>Pick a color: 
+<input type="color" name="color" value="#009933" />
+<br/> Password: 
+<input type="password" name="pwd" value="password" />
+<br/> Pick a month and year: 
+<input type="month" name="month" value="2020-01" />
+<!-- 
+<br/> Enter a URL: 
+<input type="url" name="url" value="www.cnn.com" />
+-->
+<br/> Choose a number: 
+<input type="number" name="number" value="200" min="30" max="400" step="10" />
+<br/><br/>
+
+Should we add you to our mailing list? <br/>
+<input type="radio" name="AddToList" value="yes" checked="checked"/> Yes
+<input type="radio" name="AddToList" value="no"/> No
+<br/>
+
+<br />
+How did you hear about uCorp? (check all that apply): <br />
+(version 1) <br/>
+<input type="checkbox" name="ad"/> Online Advertisement<br/>
+<input type="checkbox" name="friend"/> From a Friend<br/>
+<input type="checkbox" name="convention"/> Trade Convention<br/>
+
+<br />
+(version 2)<br />
+<input type="checkbox" name="referred"/> Online Advertisement<br/>
+<input type="checkbox" name="referred"/> From a Friend<br/>
+<input type="checkbox" name="referred"/> Trade Convention<br/>
+<br />
+<br />
+
+How often would you like to receive an email from uCorp? <br/>
+<select name="EmailFreq">
+    <option>Once a week</option>
+    <option>Once or twice a month </option>
+    <option>Once a month </option>
+    <option value="Remove">Never </option>
+</select>
+<br/>
+<br/>
+
+When is the best time of day to reach you? (choose all that apply):
+<br/>
+<select name="timeofday" multiple="multiple" size="3">
+<option>Morning</option>
+<option>Early Afternoon</option>
+<option>Late Afternoon</option>
+<option>Evening</option>
+</select>
+<br/>
+<br/>
+
+
+Comments:
+<br/>
+<textarea name="comments" cols="30" rows="3">We love your feedback. Please leave some for us here.
+</textarea>
 <br/>
 <br/>
 <br/>
+<br/>
+<!-- Submit & Reset buttons -->
 <input type="submit"/> 
 <input type="reset"/>
-
+<br />
+<br />
 </form>
 
 </body>
