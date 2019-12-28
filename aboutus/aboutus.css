@@ -78,8 +78,8 @@ background:#fff url(nav_background.jpg) no-repeat top;
 
 #catalog
 {
-margin-top: 200;
-margin-left: 30;
+margin-top: 200px;
+margin-left: 30px;
 }
 
 article 	
@@ -87,7 +87,7 @@ article
 padding:0;
 margin-left:170px;
 width:435px;
-height: 600;
+height: 600px;
 background-color:#fff;
 display:block;
 }
@@ -112,7 +112,7 @@ float: left;
 
 #follow
 {
-margin-left: 275;
+margin-left: 275px;
 }
 
 #footerlinks
@@ -121,7 +121,7 @@ text-align: center;
 }
 
 /* SECTION FOR TABLE SELECTORS */
-table, th, td 
+th, td 
 {
 border:1px solid black;
 }
@@ -141,10 +141,15 @@ margin-right: auto;
 
 td
 {
-padding:5px;
+padding:3px;
 }
 
 td.center
 {
 text-align:center;
+}
+
+tr.blue
+{
+    background-color: lightblue;
 }
