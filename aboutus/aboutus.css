@@ -42,7 +42,7 @@ color:#fff;
 
 a 
 {
-color: #009933
+color: #093
 }
 
 img
@@ -87,6 +87,7 @@ article
 padding:0;
 margin-left:170px;
 width:435px;
+height: 600;
 background-color:#fff;
 display:block;
 }
@@ -107,7 +108,6 @@ background: #000 url(footer_background.jpg) no-repeat left;
 #address
 {
 float: left;
-margin-left: 10px;
 }
 
 #follow
