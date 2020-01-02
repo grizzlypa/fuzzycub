@@ -15,16 +15,25 @@ border: 1px solid #000000;
 
 <body>
 
-<canvas id="myCanvas" width="300" height="300">
+<canvas id="myCanvas" width="530px" height="260px">
 Your browser does not support the canvas element.
 </canvas>
 
+<!-- JavaScript to draw boxes on the canvas -->
 <script type="text/javascript">
 
 var c=document.getElementById("myCanvas");
 var ctx=c.getContext("2d");
-ctx.fillStyle="#FF0000";
-ctx.fillRect(0,0,150,75);
+/* Set color and draw first three boxes */
+ctx.fillStyle="#003366";
+ctx.fillRect(20,20,150,100);
+ctx.fillRect(190, 20, 150, 100);
+ctx.fillRect(360, 20, 150, 100);
+/* Sets new color and draws next three boxes */
+ctx.fillStyle="#663300";
+ctx.fillRect(20, 140, 150, 100);
+ctx.fillRect(190, 140, 150, 100);
+ctx.fillRect(360, 140, 150, 100);
 
 </script>
 
